@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none">
+  <title>Splain abstract link logo</title>
+  <defs>
+    <linearGradient id="link-blue" x1="24" y1="27" x2="78" y2="94" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#46C8FF"/><stop offset=".48" stop-color="#547AFF"/><stop offset="1" stop-color="#8050EE"/>
+    </linearGradient>
+    <linearGradient id="link-purple" x1="63" y1="39" x2="104" y2="101" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7970FF"/><stop offset=".55" stop-color="#A354F5"/><stop offset="1" stop-color="#D071EC"/>
+    </linearGradient>
+  </defs>
+  <path d="M61 27 24 64 49 89 65 73 49 57" stroke="url(#link-blue)" stroke-width="14" stroke-linecap="square" stroke-linejoin="round"/>
+  <path d="M67 101 104 64 79 39 63 55 79 71" stroke="url(#link-purple)" stroke-width="14" stroke-linecap="square" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <title>Red beveled Splain logo</title>
+  <defs>
+    <linearGradient id="red" x1="28" y1="20" x2="96" y2="112" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF7979"/><stop offset=".3" stop-color="#F52C3B"/>
+      <stop offset=".65" stop-color="#D30A24"/><stop offset="1" stop-color="#7F0018"/>
+    </linearGradient>
+    <filter id="bevel" x="-15%" y="-15%" width="140%" height="145%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="4" result="depth"/>
+      <feFlood flood-color="#650014"/><feComposite in2="depth" operator="in" result="side"/>
+      <feOffset in="SourceAlpha" dx="1.5" dy="2" result="low"/>
+      <feComposite in="SourceAlpha" in2="low" operator="out" result="edge"/>
+      <feFlood flood-color="#FFD0CD"/><feComposite in2="edge" operator="in" result="shine"/>
+      <feOffset in="SourceAlpha" dx="-1.5" dy="-2" result="high"/>
+      <feComposite in="SourceAlpha" in2="high" operator="out" result="bottom"/>
+      <feFlood flood-color="#740019" flood-opacity=".8"/><feComposite in2="bottom" operator="in" result="shade"/>
+      <feMerge><feMergeNode in="side"/><feMergeNode in="SourceGraphic"/><feMergeNode in="shine"/><feMergeNode in="shade"/></feMerge>
+    </filter>
+  </defs>
+  <path fill="url(#red)" filter="url(#bevel)" d="M38 20h70L88 40H46L32 54h50L62 74H8l10-34 20-20Zm28 34h54l-10 34-20 20H20l20-20h42l14-14H46l20-20Z"/>
+</svg>
